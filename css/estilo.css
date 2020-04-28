@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: roboto, arial;
+	font-size: 100%;
+	box-sizing: border-box;
+	text-align: center
+}
+
+p{
+	padding:5px;
+	text-align: left
+}
+
+h1{
+	padding:5px;
+	font-family: helvetica;
+	font-size: 35px;
+	color: #000;
+}
+
+.nomelogo{
+	font-family: Agency FB;
+	font-size: 65px;
+	color: #876708;
+}
+
+.oque{
+	font-family:Agency FB;
+	font-size: 40px;
+	color: #29cc29;
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+.rodape{
+	background-color: #347aba;
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bolder;  	
+}
+
+footer{
+	margin: auto;
+	margin-top: 40px;
+	background-color:white;
+	color: black;
+	font-size: 12px;
+	float: center;
+}
+
+.indisponivel{
+	font-family: arial;
+	font-size: 45px;
+	color: #A4A4A4;
+}
+   
+.tituloDestaque{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom:15px;
+	margin-bottom:20px;
+	border-bottom:5px #ccc dotted;
+}
+
+.total{
+	background-color: #fff;
+}
+
+.corpo{
+	width:100%;
+}
+
+.conteudo{
+	max-width: 1280px;
+	width:80%;
+	margin:auto;
+	padding:5px;
+	background-size: 300px;
+	background-color: #5F4C0B;
+}
+.logo{
+	float: left;
+	width:200px;
+	height:150px;
+}
+
+.verde{
+	background-color:#81F781;
+	color: #fff
+	
+}
+.branco{
+	background-color: #886A08;
+}
+	
+.menu{
+	display: block;
+	float: right;
+	margin-top: 40px;
+	background-color: #f5fa5a;	
+}
+
+.menu li{
+	padding:20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+.menu li:hover{
+	background-color: #f5fa5a;
+	border-radius: 10px
+}
+.menu a{
+	color: rgb(40,205,40);
+}
+.menu a:hover{
+	color: #886A08;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 5px;
+}
+.preto{
+	background-color: #333;
+	color: #ccc
+
+}
+
+.slide{
+	min-height: 350px;
+	border: 5px solid #fff;
+	position: relative;
+	text-align: left;
+}
+
+.slideImagem{
+	position:absolute;
+	opacity: 0;
+	animation: animaSlide 10s infinite;
+	-webkit-animation: animaSlide 10s infinite;
+}
+
+
+@keyframes animaSlide{
+	25%{
+		opacity: 1
+	}
+
+	75%{
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes animaSlide{
+	25%{
+		opacity: 1
+	}
+	75%{
+		opacity: 0
+	}
+}
+
+.slideImagem:nth-child(0){
+	animation-delay: 5s
+}
+
+.slideImagem:nth-child(1){
+	animation-delay: 10s
+}
+
+.slideImagem:nth-child(2){
+	animation-delay: 15s
+}
+
+.bordas{
+	border-radius: 10px;
+}
+
+.sombraMenu{
+	box-shadow: 2px 5px 10px #555;
+}
+
+.sombra{
+	box-shadow: 2px 5px 10px #ccc;
+	border:1px solid #ddd;
+	-webkit-box-shadow:2px 5px 10px #ccc;
+	-moz-box-shadow:2px 5px 10px #ccc;
+}
+
+.caixa{
+	float:left;
+	width:100%;
+	margin:0.5%
+}
+.caixa3{
+	width:24%;
+}
+.caixa4{
+	width: 32.33333%;
+}
+
+.caixa6{
+	width: 49%
+}
+
+.caixa9{
+	width: 74%
+}
+
+.caixa1{
+	width:7.33333%
+}
+.caixa2{
+	width: 15.66667%;
+}
+.amarelo{
+	background-color: #F4FA58;
+}
+
+.titulo{
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+.textoVermelho{
+	color: #eb262a
+}
+.textoAzul{
+	color: #0089fa
+}
+.textoAmarelo{
+	color: #ffa900
+}
+.textoVerde{
+	color:#00c161;
+}
+
+.botao{
+	margin: 10px;
+	display:inline-block;
+	border: 1px solid;
+	color:#000;
+	cursor:pointer;
+}
+.botaoMedio{
+	padding: 10px 30px
+}
+.botaoGrande{
+	padding: 15px 50px
+}
+.botaoAmarelo{
+	background-color: #f5fa5a;
+	border-color: #f5fa5a;
+}
+.botaoAmarelo:hover{
+	background-color: #ffde37
+}
+.botaoVerde{
+	background-color: #00a573;
+	border-color: #009d4f
+}
+.botaoVerde:hover{
+	background-color: #00c161
+}
+.botaoVermelho{
+	background-color: #eb260a;
+	border-color: #d2230a;
+}
+.botaoVermelho:hover{
+	background-color: #F08080
+}
+.sombraTexto{
+	text-shadow : 2px 2px 4px #f5fa5a;
+}
+
+
+.clearfix{
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+
+.fundoTopo{
+	background-image: url("../images/topo.png");
+	background-repeat: repeat;
+}
+
+
+audio{
+	width: 85%;
+	margin: 15px;
+	max-height:35px;
+}
+
+
+.cinza{
+	background-color: #f2f1ec;
+	color: #555
+}
+video, iframe{
+	width: 100%;
+	height: 100%;
+	min-height: 180px;
+	background-color: #000;
+	border: 5px solid #111;
+
+}
+
+.endereco li, address{
+	line-height: 50px;
+	font-style: italic;
+	border-bottom: 1px #eee solid;
+	list-style: none;
+	text-align: left;
+	height: 45px;
+}
+.endereco img{
+	float: left;
+	width:40px; 
+	height:40px;
+	margin:5px;
+}
+.endereco a{
+	color: #444
+}
+.endereco a:hover{
+	color: #ccc;
+}
+.formulario{
+	background-color: #E9C2A6
+}
+input[type="text"],[type="email"], textarea{
+	margin: 1%;
+	width: 90%;
+	padding: 15px;
+	background-color: #e9e9e9;
+	border:1px solid #ddd;
+	text-align: left;
+}
