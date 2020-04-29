@@ -1,0 +1,21 @@
+.rodapee{
+	float: center;
+	margin-top: 32%;
+}
+.imagens{
+	background-color: #5F4C0B;
+	width: 100%;
+}
+.imagens, img{
+	float: left;
+	width: 50%;
+}
+.area {
+	float: left;
+	padding: 5px;
+	background-color: black;
+	width: auto;
+}
+.areaexterna{
+	width: 50%;
+}
