@@ -1,0 +1,31 @@
+.rodapee{
+	float: center;
+	margin-top: 32%;
+}
+.imagens{
+	background-color: #dbe4ab;
+	width: 100%;
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+.imagens, img{
+	float: left;
+	width: 100%;
+}
+.area {
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+.areaexterna{
+	width: 50%;
+}
+.areaexterna2{
+	height: 505px;
+}
+.serv, p{
+	font-family: Agency FB;
+	font-size: 65px;
+	color: #0b2b48;
+}

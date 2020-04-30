@@ -8,6 +8,7 @@
 	text-align: center
 }
 
+
 p{
 	padding:5px;
 	text-align: left
@@ -23,7 +24,7 @@ h1{
 .nomelogo{
 	font-family: Agency FB;
 	font-size: 65px;
-	color: #876708;
+	color: #0b2b48;
 }
 
 .oque{
@@ -68,7 +69,7 @@ footer{
 }
 
 .total{
-	background-color: #fff;
+	background-color: #dbe4ab;
 }
 
 .corpo{
@@ -81,7 +82,7 @@ footer{
 	margin:auto;
 	padding:5px;
 	background-size: 300px;
-	background-color: #5F4C0B;
+	background-color: #dbe4ab;
 }
 .logo{
 	float: left;
@@ -95,7 +96,7 @@ footer{
 	
 }
 .branco{
-	background-color: #886A08;
+	background-color: #dbe4ab;
 }
 	
 .menu{
@@ -137,7 +138,7 @@ img{
 
 .slide{
 	min-height: 350px;
-	border: 5px solid #fff;
+	border: 5px solid #393185;
 	position: relative;
 	text-align: left;
 }
@@ -223,7 +224,7 @@ img{
 	width: 15.66667%;
 }
 .amarelo{
-	background-color: #F4FA58;
+	background-color: #dbe4ab;
 }
 
 .titulo{
@@ -335,7 +336,7 @@ video, iframe{
 	color: #ccc;
 }
 .formulario{
-	background-color: #E9C2A6
+	background-color: #dbe4ab
 }
 input[type="text"],[type="email"], textarea{
 	margin: 1%;
@@ -344,4 +345,12 @@ input[type="text"],[type="email"], textarea{
 	background-color: #e9e9e9;
 	border:1px solid #ddd;
 	text-align: left;
+}
+
+.sobre{
+	background-color: #dbe4ab
+}
+
+.sobre p{
+	font-size: 22px
 }
